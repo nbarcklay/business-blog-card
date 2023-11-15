@@ -41,12 +41,12 @@ main {
 
 }
 
-.img-overlay {
+.container {
     width: auto;
     height: auto;
     
 
-    display: inline-flex;
+    display: flex;
     align-items: flex-start;
     vertical-align: top;
     position: relative;
