@@ -9,7 +9,7 @@ body, h1, h2, h3, p, ul, li, img, div, main {
 }
 
 main {
-    width: 100%; 
+    width: 100vw;
     height: 100vh;
     background-color: #F2F5F9;
 
@@ -35,22 +35,15 @@ main {
     height: 500px;
 
     border-radius: 10px;
-
-
-
-
 }
 
 /* container for hero img and overlay shape */ 
 .container {
-    width: auto;
-    height: auto;
-    
-
     display: inline-flex;
     
-    vertical-align: top;
+    width: 375px;
     position: relative;
+    vertical-align: top;
     text-align: center;
     justify-content: center;
 
@@ -65,14 +58,14 @@ main {
     position: absolute;
     display: inline;
     align-self: flex-end;
-    margin: -3px;
-    
+    width: 100%;
+    margin-bottom: -3px;
+     
 }
 
 .card-content {
     z-index: 1;
     text-align: left;
-    background-color: white;
     padding: 0px 36px 0px 36px;
     
 }
