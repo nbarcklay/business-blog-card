@@ -57,6 +57,7 @@ main {
     
 }
 
+
 .over {
     position: absolute;
     width: 368px;
@@ -85,33 +86,38 @@ h2 {
     font-weight: normal;
 }
 
-.foot p {
-    font-weight: bold;
-}
-.foot p, span {
-    font-size: 12px;
-}
-.foot span {
-    color: rgb(103, 116, 137, .9); 
-}
 
 .foot {
-    display: grid;
-    grid-template-rows: 50px;
-    grid-template-columns: 68px 300px;
+    
 
-    align-items: center;
+   
+    
 
     border-top: 1px solid rgb(103, 116, 137, .25); 
+    
+}
 
-    margin: 0px 0px 16px 0px;
-    padding: 16px;
+.grid {
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 20% 70%;
+
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+
+    margin: 0px 36px 16px 36px;
+    padding-top: 16px;
     line-height: 14px;
 
 }
 
+.author-info {
+    text-align: left;
+}
 
 .user-icon {
     height: 50px;
     border-radius: 200px;
+    text-align: right;
 }
