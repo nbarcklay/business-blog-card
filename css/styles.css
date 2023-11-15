@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;400;500&display=swap');
 * {
-    font-family: 'Lato', 'Poppins', 'Montserrat', 'Arial';
+    font-family: 'Lato', 'Poppins', 'Montserrat', 'Arial', 'Open-Sans', 'Roboto';
 }
 /* Reset some default styles */
 body, h1, h2, h3, p, ul, li, img, div, main {
@@ -31,7 +31,7 @@ main {
 .card {
     display: inline-block;
     background-color: #FFFFFF;
-    width: 400px;
+    width: 375px;
     height: 500px;
 
     border-radius: 10px;
@@ -91,7 +91,7 @@ h2 {
 
 .foot {
     font-family: inherit;
-    border-top: 1px solid rgb(103, 116, 137, .25); 
+    border-top: 1px solid rgb(103, 116, 137, .2); 
     vertical-align: middle;
 }
 
@@ -104,9 +104,10 @@ h2 {
     align-items: center;
     justify-items: center;
 
-    margin: 0px 36px 16px 36px;
-    padding-top: 18px;
+    margin: 16px 36px 16px 36px;
+    padding-top: 10px;
     line-height: 14px;
+   
 
 }
 
